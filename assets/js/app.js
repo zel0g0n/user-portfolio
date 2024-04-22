@@ -1,3 +1,4 @@
+//modal window
 const navMenu = document.querySelector('nav')
 const bars = document.querySelector('.menu-bars')
 

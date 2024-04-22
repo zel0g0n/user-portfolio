@@ -1,5 +1,6 @@
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,6 +9,7 @@ header {
   background-color: $body-color;
   z-index: 999;
   transition: .3s;
+  margin-bottom: 70px;
   .logo {
     height: 100%;
     .logo__item {
@@ -39,27 +41,7 @@ header {
       }
     }
   }
-  .header__btn {
-    .header__btn-download {
-      font-weight: 500;
-      border-radius: 10px;
-      transition: .4s;
-      width: 240px;
-      height: 70px;
-      border: 0;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #efefef;
-      &:hover {
-        background-color: $second-color;
-        color: $color-white;
-      }
-      i {
-        margin-left: 10px;
-      }
-      
-    }
-  }
+
   .menu-bars {
     display: none;
     cursor: pointer;

@@ -3,12 +3,15 @@
 @import 'all';
 @import './sections/header.scss';
 @import 'media.scss';
+@import './sections/main.scss';
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: max-content;
   position: relative;
+  height: 100vh;
+
 
 }
